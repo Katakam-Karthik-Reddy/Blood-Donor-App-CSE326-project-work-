@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+    <title>Blood Donation-signup</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./signup.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <p class="red">Blood</p>
+            <p>Donation</p>
+        </div>
+        <ul class="nav_ul">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./About.html">ABOUT US</a></li>
+            <li><a href="./contact_us.html">CONTACT US</a></li>
+            <li class="signup"><a href="./signup.html">SIGN UP</a></li>
+            <li><a href="./login.html">LOGIN</a></li>
+        </ul>
+    </nav>
+    <div class="login_view">
+        <div class="login_outer_box">
+            <div class="login_box">
+                <h1>Signup</h1>
+                <div class="txtb">
+                    <input type="text" />
+                    <span data-placeholder="Username"></span>
+                </div>
+                <div class="txtb">
+                    <input type="text" />
+                    <span data-placeholder="Email"></span>
+                </div>
+                <div class="txtb">
+                    <input type="password" />
+                    <span data-placeholder="password"></span>
+                </div>
+                <input type="submit" class="loginbtn" value="Signup" />
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="div4">
+            <div class="div5">
+                <p style="color: red;">BLOOD</p>
+                <p style="color: white;">DONATION</p>
+            </div>
+            <div class="div6">
+                <p>
+                    We are world largest and trustful blood donation center. We have been working since 1973 with a prestigious vision to helping patient to privide blood. We are working all over the world, organzing blood donation campaign to grow awareness among the people
+                    to donate blood
+                </p>
+            </div>
+        </div>
+        <div class="middel">
+            <div class="contactus">
+                <h1>CONTACT US</h1>
+                <div class="dive">
+                    <p>support@donation.com <br />helpme@donation.com</p>
+                </div>
+                <div class="addr">
+                    <p>LPU/Jaladhar <br />14441</p>
+                </div>
+                <div class="offi">
+                    <p>office: (+91)625 186 6181 <br />cell: (+91) 911 311 6818</p>
+                </div>
+            </div>
+            <div class="supp_link">
+                <h1>SUPPORT LINKS</h1>
+                <div class="supp_div">
+                    <ul class="ul_1">
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">Thalassemia</a>
+                        </li>
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">Myelodysasia</a>
+                        </li>
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">hemolytimia</a>
+                        </li>
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">Hyrcoagulable</a>
+                        </li>
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">Siclenemiaxs</a>
+                        </li>
+                    </ul>
+                    <ul class="ul_2">
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">Cell Elofrosis</a>
+                        </li>
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">Blood Count</a>
+                        </li>
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">Ychromas Eosis</a>
+                        </li>
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">Thrombo Xtosis</a>
+                        </li>
+                        <li>
+                            <img src="./liststyleimg.png" alt="list image" class="list_img" /><a href="">Aplastic Anemia</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="subus">
+                <h1>SUBSCRIBE US</h1>
+                <p>
+                    Signup for regular newsletter and stay up to date with our latest news.
+                </p>
+                <div class="subus_input">
+                    <p>Enter your email</p>
+                    <input type="email" />
+                </div>
+                <button class="subus_btn">SUBCRIBE US</button>
+            </div>
+        </div>
+        <div class="lastdiv">
+            <p>Copyright 2020-Blood Donation by lpu.All Right Reserved.</p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        $(".txtb input").on("focus", function() {
+            $(this).addClass("focus");
+        });
+        $(".txtb input").on("blur", function() {
+            $(this).removeClass("focus");
+        });
+    </script>
+</body>
+
+</html>
