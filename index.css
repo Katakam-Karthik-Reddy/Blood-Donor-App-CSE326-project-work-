@@ -18,21 +18,28 @@ nav {
     opacity: 0.95;
     width: 100%;
     height: 10vh;
-    background-color: #ffffff;
+    background-color: crimson;
     align-items: center;
     display: flex;
     box-shadow: 6px 6px 7px #888888;
 }
 
 .logo {
+    line-height: 5vh;
     font-style: sans-serif;
     font-size: 4vh;
     padding-left: 15vh;
     display: flex;
 }
 
-.red {
-    color: red;
+.logo img {
+    width: 5vh;
+    height: 5vh;
+    padding-right: 1vh;
+}
+
+.white {
+    color: white;
 }
 
 nav .nav_ul {
@@ -56,13 +63,13 @@ nav .nav_ul li {
 }
 
 nav ul .home {
-    background-color: #2676de;
+    background-color: #00bcd4;
     padding: 1vh;
     border-radius: 3vh;
 }
 
 nav ul li a:hover {
-    color: #cc0e74;
+    color: #aeefec;
 }
 
 .inner {
@@ -96,6 +103,7 @@ nav ul li a:hover {
 .principal h1 {
     font-size: 70px;
     margin-bottom: 20px;
+    color: red;
 }
 
 .join_us {

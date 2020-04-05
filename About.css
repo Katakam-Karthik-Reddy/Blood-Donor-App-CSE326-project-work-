@@ -17,7 +17,7 @@ nav {
     position: fixed;
     width: 100%;
     height: 10vh;
-    background-color: #ffffff;
+    background-color: crimson;
     align-items: center;
     display: flex;
     box-shadow: 6px 6px 7px #888888;
@@ -26,14 +26,21 @@ nav {
 }
 
 .logo {
+    line-height: 5vh;
     font-style: sans-serif;
     font-size: 4vh;
     padding-left: 15vh;
     display: flex;
 }
 
-.red {
-    color: red;
+.logo img {
+    width: 5vh;
+    height: 5vh;
+    padding-right: 1vh;
+}
+
+.white {
+    color: white;
 }
 
 nav .nav_ul {
@@ -57,13 +64,13 @@ nav .nav_ul li {
 }
 
 nav ul .about {
-    background-color: #2676de;
+    background-color: #00bcd4;
     padding: 1vh;
     border-radius: 3vh;
 }
 
 nav ul li a:hover {
-    color: #cc0e74;
+    color: #aeefec;
 }
 
 .about_img {
@@ -108,7 +115,7 @@ nav ul li a:hover {
 .div2 {
     padding: 15vh 0vh 15vh 0vh;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 
 .about1 {
