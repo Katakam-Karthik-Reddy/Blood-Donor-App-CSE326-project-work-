@@ -20,7 +20,7 @@ nav {
     z-index: 1;
     width: 100%;
     height: 10vh;
-    background-color: #ffffff;
+    background-color: crimson;
     align-items: center;
     display: flex;
     box-shadow: 6px 6px 7px #888888;
@@ -33,8 +33,8 @@ nav {
     display: flex;
 }
 
-.red {
-    color: red;
+.white {
+    color: white;
 }
 
 nav .nav_ul {
@@ -58,7 +58,7 @@ nav .nav_ul li {
 }
 
 nav ul .login {
-    background-color: #2676de;
+    background-color: #00bcd4;
     padding: 1vh;
     border-radius: 3vh;
 }
